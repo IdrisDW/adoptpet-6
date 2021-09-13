@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const mongoose = require('mongoose');
 
 mongoose.connect(
-	"mongodb+srv://adminj:bRsTNeMa13@cluster0.kkbzc.mongodb.net/adoptpet?retryWrites=true&w=majority"
+ 
 	);
 
 mongoose.set("debug", true)
